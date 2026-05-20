@@ -1,0 +1,7 @@
+.venv/
+runs/
+__pycache__/
+.idea/
+
+# Veri seti yalnızca yerelde (GitHub'a yüklenmez)
+images/
