@@ -4,7 +4,16 @@ Bu projede PyTorch kullanılarak Transfer Learning yöntemi ile doğal sahne gö
 
 ## Veri Seti
 
-Projede Intel Image Classification veri seti kullanılmıştır.
+Projede [Kaggle — Intel Image Classification](https://www.kaggle.com/datasets/puneet6060/intel-image-classification) veri seti kullanılmıştır.
+
+**Train** ve **test** görsellerini bu linkten indirebilirsiniz. İndirdikten sonra klasörleri şu yapıda yerleştirin:
+
+```text
+images/intel image/seg_train/seg_train/
+images/intel image/seg_test/seg_test/
+```
+
+`seg_pred` yalnızca yerel tahmin örnekleri içindir; GitHub'a yüklenmez.
 
 **Sınıflar:**
 
@@ -68,6 +77,15 @@ model.fc = nn.Sequential(
 Sadece son katman eğitilmiştir.
 
 ## Eğitim Sonuçları
+
+10 epoch eğitim sonunda gözlemlenen **en yüksek doğruluk** ve **en düşük kayıp** değerleri (TensorBoard):
+
+| Metrik | En iyi değer |
+|--------|----------------|
+| Train Accuracy (max) | %90.8 |
+| Test Accuracy (max) | %90.6 |
+| Train Loss (min) | 0.255 |
+| Test Loss (min) | 0.25 |
 
 | Metrik | Sonuç |
 |--------|-------|
