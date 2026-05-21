@@ -87,12 +87,7 @@ Sadece son katman eğitilmiştir.
 | Train Loss (min) | 0.255 |
 | Test Loss (min) | 0.25 |
 
-| Metrik | Sonuç |
-|--------|-------|
-| Train Accuracy | %84.11 |
-| Test Accuracy | %89.77 |
-| Train Loss | 0.48 |
-| Test Loss | 0.29 |
+
 
 ## TensorBoard Sonuçları
 
