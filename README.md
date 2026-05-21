@@ -78,7 +78,7 @@ Sadece son katman eğitilmiştir.
 
 ## Eğitim Sonuçları
 
-10 epoch eğitim sonunda gözlemlenen **en yüksek doğruluk** ve **en düşük kayıp** değerleri (TensorBoard):
+10 epoch eğitim sonunda gözlemlenen **en yüksek doğruluk** ve **en düşük kayıp** değerleri :
 
 | Metrik | En iyi değer |
 |--------|----------------|
